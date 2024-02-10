@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Advent+Pro|Dancing+Script&display=swap');
+html {
+  scroll-behavior: smooth ; 
+  background-color: #21084a;
+
+}
+body {
+    font-family: 'sans-serif' ;
+    padding: 0;
+    margin: 0;
+  }
+  h2 {
+    text-transform: uppercase;
+    color: #ececec  ;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 2em;
+  }
+  /* **************** head ************* */
+  h1 {
+    font-family: 'Dancing Script';
+    text-align: center;
+    color: #ececec  ;
+    font-size: 6em;
+    margin-top: 100px;
+    text-shadow: 1px 3px 2px black;
+  }
+    /* **************** form ************* */
+    form {
+        margin: 0 auto;
+        max-width: 900px;
+        color: #ececec  ;
+      }
+      input, button {
+        border: none;
+        width: 55%;
+        color: #ececec  ;
+        padding: 15px 10px;
+        margin: 1px 0;
+        font-size: 1.2em;
+        font-family: 'sans-serif' ;
+        border-radius: 8px;
+        text-transform: uppercase;
+      }
+      /* **************** EFFECT  ************* */
+      button {
+        font-size: 1.5em;
+        background-color: #8f7575;
+      }
+      button:hover {
+        background-color: #e55039;
+        color: #4e4d49;
+        cursor: pointer;
+        transition: 0.22s ease-in-out;
+      }
+      
